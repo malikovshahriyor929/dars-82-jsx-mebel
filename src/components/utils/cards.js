@@ -1,6 +1,4 @@
 import card from "../../assets/img/product1.png";
-import card2 from "../../assets/img/product2.png";
-import card3 from "../../assets/img/product3.png";
 
 
 const products = [

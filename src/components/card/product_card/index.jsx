@@ -16,11 +16,11 @@ const Product_item = ({ value }) => {
       </div>
       <div className="flex gap-1 justify-between py-1">
         <p className="text-[14px] max-w-[220px] max-[594px]:max-w-[190px] max-[594px]:text-ellipsis">
-          Декоративный куст, с шикарными листьями, горшком
+          {value.title}
         </p>
-        <p className="text-[14px]">2 000 руб.</p>
+        <p className="text-[14px]">{value.price}</p>
       </div>
-      <p className="text-[8px] uppercase">120 × 212 × 46</p>
+      <p className="text-[8px] uppercase">{value.dimensions}</p>
       <div className="flex gap-2 justify-between py-3">
         <div className="flex gap-4 p-2">
           <img src={product_small_imgs} alt="" />
